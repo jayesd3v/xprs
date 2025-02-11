@@ -22,5 +22,8 @@
     "homepage": "https://github.com/jayesd3v/xprs#readme",
     "dependencies": {
         "inquirer": "^12.4.1"
+    },
+    "engines": {
+        "node": ">=18.0.0"
     }
 }
