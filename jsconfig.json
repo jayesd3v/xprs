@@ -1,0 +1,8 @@
+{
+    "compilerOptions": {
+        "baseUrl": "./",
+        "paths": {
+            "@/*": ["src/*"] // this help vscode to jump to definition when import using @/
+        }
+    }
+}
