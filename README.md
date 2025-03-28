@@ -24,19 +24,21 @@ npm run switch-env
 
 # Development
 
-## Run without starting payment development tools
+## Running
+
+### 1. Run without starting payment development tools
 
 ```
 npm run dev
 ```
 
-## Run with special configurations for Windows
+### 2. Run with special configurations for Windows
 
 ```
 npm run dev:windows
 ```
 
-## Run with special configurations for Linux
+### 3. Run with special configurations for Linux
 
 ```
 npm run dev:linux
