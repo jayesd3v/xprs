@@ -1,0 +1,6 @@
+{
+    "watch": ["src", "package.json", ".env"],
+    "ext": ".js, .json",
+    "ignore": [],
+    "exec": "npm start"
+}
