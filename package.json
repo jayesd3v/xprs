@@ -22,13 +22,15 @@
     "type": "module",
     "homepage": "https://github.com/jayesd3v/xprs#readme",
     "dependencies": {
+        "cors": "^2.8.5",
         "dotenv": "^16.4.7",
         "dotenv-parse-variables": "^2.0.0",
         "express": "^4.21.2",
         "http": "^0.0.1-security",
         "https": "^1.0.0",
         "inquirer": "^12.4.1",
-        "nodemon": "^3.1.9"
+        "nodemon": "^3.1.9",
+        "winston": "^3.17.0"
     },
     "engines": {
         "node": ">=18.0.0"
