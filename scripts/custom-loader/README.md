@@ -4,10 +4,10 @@ Support relative import, folder import and implicitly js extension file import
 
 ## Usage
 
-Add node param `--loader <custom-loader-path>` when running your application
+Add node param `--import ./scripts/custom-loader/register.js` when running your application
 
 ```
-$ node --loader ./scripts/custom-loader/customLoader.js index.js
+$ node --import ./scripts/custom-loader/register.js ./src/index.js
 ```
 
 ## Debugging
