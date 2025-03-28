@@ -1,19 +1,20 @@
 import sequelize from '@/models/sequelize';
+import { DataTypes } from 'sequelize';
 
 const ExampleModel = sequelize.define(
     'example',
     {
         id: {
-            type: sequelize.Sequelize.INTEGER,
+            type: DataTypes.INTEGER,
             primaryKey: true,
             autoIncrement: true,
         },
         name: {
-            type: sequelize.Sequelize.STRING,
+            type: DataTypes.STRING,
             allowNull: false,
         },
         description: {
-            type: sequelize.Sequelize.TEXT,
+            type: DataTypes.TEXT,
             allowNull: true,
         },
     },
