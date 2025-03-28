@@ -4,7 +4,8 @@
     "description": "",
     "main": "index.js",
     "scripts": {
-        "start": "node --loader ./scripts/custom-loader/customLoader.js ./src/index.js",
+        "dev": "npx nodemon",
+        "start": "node --import ./scripts/custom-loader/register.js ./src/index.js",
         "switch-env": "node scripts/switch-env/switchEnv.js",
         "test": "echo \"Error: no test specified\" && exit 1"
     },
@@ -26,7 +27,8 @@
         "express": "^4.21.2",
         "http": "^0.0.1-security",
         "https": "^1.0.0",
-        "inquirer": "^12.4.1"
+        "inquirer": "^12.4.1",
+        "nodemon": "^3.1.9"
     },
     "engines": {
         "node": ">=18.0.0"
