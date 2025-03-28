@@ -19,7 +19,7 @@ const getCorsMiddleware = (isHttps) => {
         }
     }
 
-    logger.info(`origin: [${origin}]`);
+    logger.info(`Origin: [${origin}]`);
 
     return cors({
         origin,
